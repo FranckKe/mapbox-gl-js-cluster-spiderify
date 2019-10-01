@@ -8,6 +8,8 @@ Needs a Mapbox token
 
 [Codepen](https://codepen.io/FranckK/pen/qBWrJLV?)
 
+[Ocean Plastic Tracker](https://oceanplastictracker.com)
+
 ## Screenshots
 
 ![spider_layer](screenshots/spider_layer.png)

@@ -61,7 +61,7 @@ let map = new mapboxgl.Map({
   zoom: 3
 });
 
-function clearSpierifiedMarkers() {
+function clearSpiderifiedMarkers() {
   if (clusterMarkers.length > 0) {
     for (let i = 0; i < clusterMarkers.length; i++) {
       clusterMarkers[i].remove();
@@ -80,7 +80,7 @@ function clearSpiderifiedCluster() {
   spiderLeavesCollection = [];
   removeSourceAndLayer(map, SPIDER_LEGS_LAYER_NAME);
   removeSourceAndLayer(map, SPIDER_LEAVES_LAYER_NAME);
-  clearSpierifiedMarkers();
+  clearSpiderifiedMarkers();
 }
 
 function generateEquidistantPointsInCircle({
